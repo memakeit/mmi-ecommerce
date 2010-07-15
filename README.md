@@ -1,1 +1,1 @@
-## Me Make It Ecommerce Module
+## MMI Ecommerce Module
