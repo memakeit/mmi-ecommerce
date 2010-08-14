@@ -1,11 +1,11 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-// Test route
+// Test routes
 if (Kohana::$environment !== Kohana::PRODUCTION)
 {
-	Route::set('test/ecommerce', 'test/ecommerce/<controller>(/<action>)')
+	Route::set('mmi/ecommerce/test', 'mmi/ecommerce/test/<controller>(/<action>)', array('controller' => '.+'))
 	->defaults(array
 	(
-		'directory' => 'test/ecommerce',
+		'directory' => 'mmi/ecommerce/test',
 	));
 }

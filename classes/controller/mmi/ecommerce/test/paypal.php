@@ -7,7 +7,7 @@
  * @copyright	(c) 2010 Me Make It
  * @license		http://www.memakeit.com/license
  */
-class Controller_Test_Ecommerce_PayPal extends Controller
+class Controller_MMI_Ecommerce_Test_PayPal extends Controller
 {
 	/**
 	 * @var boolean turn debugging on?
@@ -23,4 +23,4 @@ class Controller_Test_Ecommerce_PayPal extends Controller
 	{
 		MMI_Debug::dump(PHP_INT_MAX, 'PHP_INT_MAX');
 	}
-} // End Controller_Test_Ecommerce_PayPal
+} // End Controller_MMI_Ecommerce_Test_PayPal
