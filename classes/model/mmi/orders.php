@@ -42,7 +42,7 @@ class Model_MMI_Orders extends Jelly_Model
 				(
 					'choices' => array
 					(
-						'cart'  => 'cart',
+						'cart' => 'cart',
 						'order' => 'order',
 					),
 					'default' => 'cart',

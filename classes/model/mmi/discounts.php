@@ -68,8 +68,8 @@ class Model_MMI_Discounts extends Jelly_Model
 				(
 					'choices' => array
 					(
-						'dollar'    =>'dollar',
-						'percent'   => 'percent',
+						'dollar' =>'dollar',
+						'percent' => 'percent',
 					),
 					'default' => 'dollar',
 				)),
