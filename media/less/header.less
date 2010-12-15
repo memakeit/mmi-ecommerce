@@ -1,0 +1,58 @@
+/* mmi-ecommerce/less/header.less */
+
+/*	ecommerce nav
+ ******************************************************************************/
+#cart_nav,
+#offer_nav
+{
+	clear: both;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	top: 38px;
+}
+
+#cart_nav
+{
+	min-width: 140px;
+}
+
+#offer_nav
+{
+	min-width: 220px;
+}
+
+#cart_nav a,
+#offer_nav a
+{
+	border: 1px solid transparent;
+	display: block;
+	line-height: 1.2;
+	padding: 16px 64px 16px 16px;
+}
+
+#cart_nav a
+{
+	background: url('../../img/icons/48px/Cart.png') no-repeat 100% 50%;
+}
+
+#offer_nav a
+{
+	background: url('../../img/icons/48px/Star.png') no-repeat 100% 50%;
+}
+
+#cart_nav a:hover,
+#offer_nav a:hover
+{
+	border-color: #CCC;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#cart_nav em,
+#offer_nav span
+{
+	color: #666;
+	font-weight: normal;
+}
